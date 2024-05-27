@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\imageManipulation.api.props" />
+</Project>

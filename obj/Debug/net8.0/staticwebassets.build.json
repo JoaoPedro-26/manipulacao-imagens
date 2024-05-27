@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "csE7AxW0cpNOPbot6DGFvtvMdWmoAtB/sEZJs+SU7/U=",
+  "Source": "imageManipulation.api",
+  "BasePath": "_content/imageManipulation.api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
