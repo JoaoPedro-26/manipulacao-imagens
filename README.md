@@ -1,10 +1,10 @@
 
-# Image Manipulation API Descri��o
+# Image Manipulation API Descrição
 
-A Image Manipulation API permite aos usu�rios adicionar marcas d'�gua a imagens enviadas em formato Base64. Suporta v�rios formatos de imagem e retorna a imagem resultante tamb�m em Base64. Endpoints POST /api/image/watermark
+A Image Manipulation API permite aos usuários adicionar marcas d'água a imagens enviadas em formato Base64. Suporta vários formatos de imagem e retorna a imagem resultante também em Base64.
 
 
-## Documenta��o da API
+## Documentação da API
 
 #### Retorna a imagem com marca d'agua
 
@@ -12,29 +12,29 @@ A Image Manipulation API permite aos usu�rios adicionar marcas d'�gua a imag
   POST /api/image
 ```
 
-| Par�metro   | Tipo       | Descri��o                           |
+| Parâmetro   | Tipo       | Descrição                           |
 | :---------- | :--------- | :---------------------------------- |
-| `format` | `string` | **Obrigat�rio**. O formato da imagem |
-| `image` | `string` | **Obrigat�rio**. A imagem original |
+| `format` | `string` | **Obrigatório**. O formato da imagem |
+| `image` | `string` | **Obrigatório**. A imagem original |
 
 #### Response
 - status: 200 OK
 
-| Par�metro   | Tipo       | Descri��o                           |
+| Parâmetro   | Tipo       | Descrição                           |
 | :---------- | :--------- | :---------------------------------- |
-| `image` | `string` | **Obrigat�rio**. A imagem com marca d'agua |
+| `image` | `string` | **Obrigatório**. A imagem com marca d'agua |
 
-## Instala��o 
-### Pr�-requisitos
+## Instalação 
+### Pré-requisitos
 
 .NET SDK 8.0 ou superior
 
 ### Passos
 
-- Passo 1 : Clone o reposit�rio
+- Passo 1 : Clone o repositório
 
 ```bash
-  git clone https://github.com/seu-usuario/image-manipulation-api.  git cd teste-tecnico-imagem
+  git clone https://github.com/JoaoPedro-26/manipulacao-imagens  git cd teste-tecnico-imagem
 ```
 - Passo 2 : Restaure os pacotes
 
@@ -42,7 +42,7 @@ A Image Manipulation API permite aos usu�rios adicionar marcas d'�gua a imag
   dotnet restore
 ```
 
-- Passo 3 : Execute a aplica��o
+- Passo 3 : Execute a aplicação
 
 ```bash
   dotnet run
@@ -50,15 +50,15 @@ A Image Manipulation API permite aos usu�rios adicionar marcas d'�gua a imag
 
 ## Estrutura do projeto
 
-    Controllers/ImageController.cs: Cont�m o endpoint para adicionar marcas d'�gua �s imagens.
-    Commands/ManipulationCommandHandler.cs: Cont�m a l�gica para manipula��o da imagem e adi��o da marca d'�gua.
-    Program.cs: Configura��o inicial e execu��o da aplica��o e configura��o dos servi�os e middleware da aplica��o.
+    Controllers/ImageController.cs: Contém o endpoint para adicionar marcas d'água ás imagens.
+    Commands/ManipulationCommandHandler.cs: Contém a lógica para manipulação da imagem e adição da marca d'água.
+    Program.cs: Configuração inicial e execução da aplicação e configuração dos serviços e middleware da aplicação.
 ## Stack utilizada
 
 **Back-end:** ASP.NET Core
 
 
-## Licen�a
+## Licença
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
